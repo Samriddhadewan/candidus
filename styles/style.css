@@ -1,0 +1,50 @@
+:root{
+    --hot-pink: #FF214F;
+    --black: #1C1C1C;
+    --grey: #919191;
+    --light-grey: #EBEBEB;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* basic styles are here  */
+.primary-font{
+    font-size: 3rem;
+    font-weight: 300;
+}
+.basic-margin{
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+/* section one and nav styles here  */
+.section-one{
+    background-color: var(--light-grey);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 30px;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+nav > ul > li{
+    font-size: 16px;
+    font-weight: 400;
+}
+.container-one{
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-container-two > p{
+    padding: 0px;
+    font-size: 24px;
+}
